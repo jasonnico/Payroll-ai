@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description"
+    content="MHR PayrollAI — Conversational AI for Payroll Self-Service. Get 24/7 access to your payslips, tax codes, leave balances and more." />
+  <title>MHR PayrollAI — Payroll Self-Service Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <!-- ════════════════════════════════════
+       LOGIN SCREEN
+  ════════════════════════════════════ -->
+  <div id="login-screen" role="main" aria-label="Login">
+    <div class="login-card">
+      <div class="login-inner">
+
+        <!-- Theme toggle on login -->
+        <div class="login-theme-row">
+          <button class="theme-toggle" id="login-theme-toggle" aria-label="Toggle light/dark mode">
+            <span id="login-toggle-label">Light mode</span>
+            <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
+          </button>
+        </div>
+
+        <div class="login-logo">
+          <div class="logo-icon" aria-hidden="true">🤖</div>
+          <div class="logo-wordmark">
+            <span class="brand-name">MHR PayrollAI</span>
+            <span class="brand-sub">Self-Service Chatbot</span>
+          </div>
+        </div>
+
+        <div class="mhr-byline">
+          <span class="mhr-badge">MHR</span>
+          <span>Powered by NTU Computing</span>
+        </div>
+
+        <p class="login-tagline">Your 24/7 payroll assistant — access payslips, tax codes, leave balances and more in
+          seconds.</p>
+
+        <form id="login-form" novalidate>
+          <div class="form-group">
+            <label for="login-employee-id">Employee ID</label>
+            <input type="text" id="login-employee-id" name="employee-id" placeholder="Enter last 4 characters of your Employee ID"
+              autocomplete="off" required aria-required="true" maxlength="4" />
+          </div>
+          <button type="submit" class="btn-login" id="login-btn">Sign In to PayrollAI</button>
+        </form>
+
+        <p class="login-footer">
+          Need help? <a href="mailto:hr@mhrglobal.com">Contact HR</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════
+       MAIN APP
+  ════════════════════════════════════ -->
+  <div id="app" aria-label="PayrollAI Chat" role="application">
+
+
+    <!-- Sidebar overlay (mobile) -->
+    <div class="sidebar-overlay" id="sidebar-overlay" aria-hidden="true"></div>
+
+    <!-- ── SIDEBAR ── -->
+    <nav class="sidebar" id="sidebar" aria-label="Chat navigation">
+
+      <!-- MHR navy-branded top bar -->
+      <div class="sidebar-header">
+        <div class="sidebar-top-bar">
+          <div class="sidebar-logo">
+            <div class="logo-icon" aria-hidden="true">🤖</div>
+            <div>
+              <div class="brand-name">PayrollAI</div>
+              <div class="brand-sub">by MHR</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="new-chat-btn" id="new-chat-btn" aria-label="Start new chat">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
+          aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+        </svg>
+        New Chat
+      </button>
+
+      <div class="sidebar-section-label">Recent</div>
+      <div class="chat-list" id="chat-list" role="list">
+        <div class="chat-item active" role="listitem" tabindex="0">
+          <span class="dot" aria-hidden="true"></span>
+          Payslip July 2025
+        </div>
+        <div class="chat-item" role="listitem" tabindex="0">
+          <span class="dot" aria-hidden="true"></span>
+          Tax Code Query — 1257L
+        </div>
+        <div class="chat-item" role="listitem" tabindex="0">
+          <span class="dot" aria-hidden="true"></span>
+          Annual Leave Balance
+        </div>
+        <div class="chat-item" role="listitem" tabindex="0">
+          <span class="dot" aria-hidden="true"></span>
+          P60 Document Request
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <!-- Theme toggle in sidebar -->
+        <div class="sidebar-theme-row">
+          <span>Appearance</span>
+          <button class="theme-toggle" id="sidebar-theme-toggle" aria-label="Toggle light/dark mode">
+            <span id="sidebar-toggle-label">Light</span>
+            <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
+          </button>
+        </div>
+
+        <div class="sidebar-user">
+          <div class="user-avatar" aria-hidden="true" id="user-avatar-initials">JD</div>
+          <div class="user-info">
+            <div class="user-name" id="display-name">Jane Doe</div>
+            <div class="user-role">Senior Software Engineer</div>
+          </div>
+          <button class="logout-btn" id="logout-btn" aria-label="Sign out" title="Sign out">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8"
+              stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ── CHAT PANEL ── -->
+    <main class="chat-panel" aria-label="Chat messages">
+
+      <!-- Header -->
+      <header class="chat-header">
+        <button class="hamburger" id="hamburger-btn" aria-label="Open menu" aria-expanded="false"
+          aria-controls="sidebar">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+
+        <div class="bot-avatar" aria-hidden="true">🤖</div>
+        <div class="bot-info">
+          <div class="bot-name">PayrollAI Assistant</div>
+          <div class="bot-status">Online &amp; ready</div>
+        </div>
+
+        <div class="header-actions" style="position: relative;">
+          <button class="header-btn" id="info-btn" aria-label="Help" title="Help">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8"
+              stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+            </svg>
+          </button>
+
+          <!-- Info Popup -->
+          <div id="info-popup" class="info-popup">
+            <h4>About PayrollAI</h4>
+            <p>Your 24/7 assistant for payslips, tax queries, and leave balances. Type a message to get started, or click the quick actions below.</p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Messages -->
+      <section class="messages-area" id="messages-area" aria-live="polite" aria-label="Conversation">
+
+        <!-- Welcome banner -->
+        <div class="welcome-banner" id="welcome-banner">
+          <div class="mhr-welcome-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            MHR PayrollAI · Proof of Concept
+          </div>
+          <div class="welcome-icon" aria-hidden="true">💼</div>
+          <h2>Hello, <span id="welcome-name">Jane</span>!</h2>
+          <p>I'm your PayrollAI assistant. Ask me anything about your pay, tax, leave or benefits — I'm here 24/7.</p>
+
+          <div class="quick-actions" role="list" aria-label="Quick actions">
+            <button class="quick-btn" data-query="Show me my latest payslip" role="listitem">
+              <span class="qb-icon" aria-hidden="true">📄</span> Latest Payslip
+            </button>
+            <button class="quick-btn" data-query="What is my tax code?" role="listitem">
+              <span class="qb-icon" aria-hidden="true">🧾</span> Tax Code
+            </button>
+            <button class="quick-btn" data-query="How many days annual leave do I have left?" role="listitem">
+              <span class="qb-icon" aria-hidden="true">🏖️</span> Leave Balance
+            </button>
+            <button class="quick-btn" data-query="What are the National Insurance deductions?" role="listitem">
+              <span class="qb-icon" aria-hidden="true">💷</span> NI Deductions
+            </button>
+            <button class="quick-btn" data-query="I need to speak to a human HR agent" role="listitem">
+              <span class="qb-icon" aria-hidden="true">👤</span> Talk to HR
+            </button>
+            <button class="quick-btn" data-query="Can I get my P60?" role="listitem">
+              <span class="qb-icon" aria-hidden="true">📋</span> Request P60
+            </button>
+            <button class="quick-btn" data-query="I need to update my personal details" role="listitem">
+              <span class="qb-icon" aria-hidden="true">📝</span> Update Personal Details
+            </button>
+            <button class="quick-btn" action="update-bank-details" role="listitem">
+              <span class="qb-icon" aria-hidden="true">🏦</span> Update Bank Details
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Input bar -->
+      <footer class="input-bar" aria-label="Message input">
+        <div class="input-wrapper">
+          <textarea id="message-input" placeholder="Ask about payslips, tax codes, leave balance…" rows="1"
+            aria-label="Type your message" autocomplete="off"></textarea>
+          <button class="send-btn" id="send-btn" aria-label="Send message" title="Send" disabled>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+            </svg>
+          </button>
+        </div>
+        <p class="input-hint">MHR PayrollAI keeps your data secure. Never share your password.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+
+</html>

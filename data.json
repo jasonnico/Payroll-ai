@@ -1,0 +1,397 @@
+{
+  "employees": {
+    "NTU001": {
+      "name": "Jane Doe",
+      "role": "Senior Software Engineer",
+      "taxCode": "1257L",
+      "payslips": {
+        "July2025": {
+          "earnings": {
+            "Gross Salary": 5833.33
+          },
+          "deductions": {
+            "PAYE Tax": 1215.11,
+            "National Insurance (NI)": 501.55,
+            "Pension (4%)": 233.33,
+            "Student Loan (Plan 2)": 235.9,
+            "Healthcare Scheme": 25.0,
+            "Total Deductions": 2210.89
+          },
+          "gross": 5833.33,
+          "tax": 1215.11,
+          "ni": 501.55,
+          "net": 3622.44
+        },
+        "August2025": {
+          "earnings": {
+            "Gross Salary": 5833.33
+          },
+          "deductions": {
+            "PAYE Tax": 1192.11,
+            "National Insurance (NI)": 487.55,
+            "Pension (5%)": 291.67,
+            "Student Loan (Plan 2)": 235.9,
+            "Healthcare Scheme": 25.0,
+            "Total Deductions": 2232.23
+          },
+          "gross": 5833.33,
+          "tax": 1192.11,
+          "ni": 487.55,
+          "net": 3601.1
+        }
+      }
+    },
+    "NTU002": {
+      "name": "John Smith",
+      "role": "Junior Developer",
+      "taxCode": "1257L",
+      "payslips": {
+        "July2025": {
+          "earnings": {
+            "Gross Salary": 2500.0
+          },
+          "deductions": {
+            "PAYE Tax": 243.6,
+            "National Insurance (NI)": 133.0,
+            "Pension (3%)": 75.0,
+            "Student Loan (Plan 1)": 39.81,
+            "Total Deductions": 491.41
+          },
+          "gross": 2500.0,
+          "tax": 243.6,
+          "ni": 133.0,
+          "net": 2008.59
+        },
+        "August2025": {
+          "earnings": {
+            "Gross Salary": 2500.0
+          },
+          "deductions": {
+            "PAYE Tax": 243.6,
+            "National Insurance (NI)": 133.0,
+            "Pension (3%)": 75.0,
+            "Student Loan (Plan 1)": 39.81,
+            "Total Deductions": 491.41
+          },
+          "gross": 2500.0,
+          "tax": 243.6,
+          "ni": 133.0,
+          "net": 2008.59
+        }
+      }
+    },
+    "NTU003": {
+      "name": "Emily Jones",
+      "role": "Mid-Level Developer",
+      "taxCode": "1257L",
+      "payslips": {
+        "July2025": {
+          "earnings": {
+            "Gross Salary": 3750.0
+          },
+          "deductions": {
+            "PAYE Tax": 568.6,
+            "National Insurance (NI)": 272.5,
+            "Pension (5%)": 187.5,
+            "Cycle to Work Scheme": 50.0,
+            "Total Deductions": 1078.6
+          },
+          "gross": 3750.0,
+          "tax": 568.6,
+          "ni": 272.5,
+          "net": 2671.4
+        },
+        "August2025": {
+          "earnings": {
+            "Gross Salary": 3900.0
+          },
+          "deductions": {
+            "PAYE Tax": 612.6,
+            "National Insurance (NI)": 283.0,
+            "Pension (5%)": 195.0,
+            "Cycle to Work Scheme": 50.0,
+            "Total Deductions": 1140.6
+          },
+          "gross": 3900.0,
+          "tax": 612.6,
+          "ni": 283.0,
+          "net": 2759.4
+        }
+      }
+    },
+    "NTU004": {
+      "name": "Mark Williams",
+      "role": "Part-Time Developer",
+      "taxCode": "1257L",
+      "payslips": {
+        "July2025": {
+          "earnings": {
+            "Hourly Rate": 20.0,
+            "Hours Worked": 80.0,
+            "Gross Pay": 1600.0
+          },
+          "deductions": {
+            "PAYE Tax": 31.6,
+            "National Insurance (NI)": 52.12,
+            "Pension (Standard Auto-enrolment)": 34.8,
+            "Total Deductions": 118.52
+          },
+          "gross": 1600.0,
+          "tax": 31.6,
+          "ni": 52.12,
+          "net": 1481.48
+        },
+        "August2025": {
+          "earnings": {
+            "Hourly Rate": 20.0,
+            "Hours Worked": 80.0,
+            "Gross Pay": 1600.0
+          },
+          "deductions": {
+            "PAYE Tax": 31.6,
+            "National Insurance (NI)": 52.12,
+            "Pension (Standard Auto-enrolment)": 34.8,
+            "Total Deductions": 118.52
+          },
+          "gross": 1600.0,
+          "tax": 31.6,
+          "ni": 52.12,
+          "net": 1481.48
+        }
+      }
+    },
+    "NTU005": {
+      "name": "Sarah Chen",
+      "role": "Senior Consultant",
+      "taxCode": "1257L",
+      "payslips": {
+        "July2025": {
+          "earnings": {
+            "Gross Salary": 8500.0
+          },
+          "deductions": {
+            "PAYE Tax": 2207.11,
+            "National Insurance (NI)": 686.55,
+            "Pension (8%)": 680.0,
+            "Student Loan (Plan 2)": 346.54,
+            "Total Deductions": 3920.2
+          },
+          "gross": 8500.0,
+          "tax": 2207.11,
+          "ni": 686.55,
+          "net": 4579.8
+        },
+        "August2025": {
+          "earnings": {
+            "Gross Salary": 8500.0
+          },
+          "deductions": {
+            "PAYE Tax": 2199.11,
+            "National Insurance (NI)": 682.55,
+            "Pension (8%)": 680.0,
+            "Student Loan (Plan 2)": 346.54,
+            "Private Life Insurance (Salary Sacrifice)": 20.0,
+            "Total Deductions": 3928.2
+          },
+          "gross": 8500.0,
+          "tax": 2199.11,
+          "ni": 682.55,
+          "net": 4571.8
+        }
+      }
+    },
+    "NTU006": {
+      "name": "Michael Davies",
+      "role": "Senior Manager",
+      "taxCode": "1257L",
+      "payslips": {
+        "July2025": {
+          "earnings": {
+            "Gross Salary": 7500.0,
+            "Car Allowance": 450.0,
+            "Gross Pay": 7950.0
+          },
+          "deductions": {
+            "PAYE Tax": 1929.11,
+            "National Insurance (NI)": 631.55,
+            "Pension (5%)": 375.0,
+            "Total Deductions": 2935.66
+          },
+          "gross": 7950.0,
+          "tax": 1929.11,
+          "ni": 631.55,
+          "net": 5014.34
+        },
+        "August2025": {
+          "earnings": {
+            "Gross Salary": 7500.0,
+            "Car Allowance": 450.0,
+            "Gross Pay": 7950.0
+          },
+          "deductions": {
+            "PAYE Tax": 1929.11,
+            "National Insurance (NI)": 631.55,
+            "Pension (5%)": 375.0,
+            "Total Deductions": 2935.66
+          },
+          "gross": 7950.0,
+          "tax": 1929.11,
+          "ni": 631.55,
+          "net": 5014.34
+        }
+      }
+    },
+    "NTU007": {
+      "name": "Chloe Wilson",
+      "role": "Graduate Engineer",
+      "taxCode": "1257L",
+      "payslips": {
+        "July2025": {
+          "earnings": {
+            "Gross Salary": 2200.0
+          },
+          "deductions": {
+            "PAYE Tax": 143.6,
+            "National Insurance (NI)": 97.0,
+            "Student Loan (Plan 2)": 25.9,
+            "Total Deductions": 266.5
+          },
+          "gross": 2200.0,
+          "tax": 143.6,
+          "ni": 97.0,
+          "net": 1933.5
+        },
+        "August2025": {
+          "earnings": {
+            "Gross Salary": 2200.0
+          },
+          "deductions": {
+            "PAYE Tax": 143.6,
+            "National Insurance (NI)": 97.0,
+            "Student Loan (Plan 2)": 25.9,
+            "Total Deductions": 266.5
+          },
+          "gross": 2200.0,
+          "tax": 143.6,
+          "ni": 97.0,
+          "net": 1933.5
+        }
+      }
+    },
+    "NTU008": {
+      "name": "Liam Brown",
+      "role": "Temporary Staff",
+      "taxCode": "BR (Basic Rate)",
+      "payslips": {
+        "July2025": {
+          "earnings": {
+            "Hourly Rate": 18.0,
+            "Hours Worked": 120.0,
+            "Gross Pay": 2160.0
+          },
+          "deductions": {
+            "PAYE Tax": 432.0,
+            "National Insurance (NI)": 92.0,
+            "Total Deductions": 524.0
+          },
+          "gross": 2160.0,
+          "tax": 432.0,
+          "ni": 92.0,
+          "net": 1636.0
+        },
+        "August2025": {
+          "earnings": {
+            "Hourly Rate": 18.0,
+            "Hours Worked": 120.0,
+            "Gross Pay": 2160.0
+          },
+          "deductions": {
+            "PAYE Tax": 432.0,
+            "National Insurance (NI)": 92.0,
+            "Total Deductions": 524.0
+          },
+          "gross": 2160.0,
+          "tax": 432.0,
+          "ni": 92.0,
+          "net": 1636.0
+        }
+      }
+    },
+    "NTU009": {
+      "name": "Olivia Green",
+      "role": "Mid-Level Developer",
+      "taxCode": "1257L",
+      "payslips": {
+        "July2025": {
+          "earnings": {
+            "Gross Salary": 4000.0
+          },
+          "deductions": {
+            "PAYE Tax": 628.6,
+            "National Insurance (NI)": 293.0,
+            "Pension (10%)": 400.0,
+            "Total Deductions": 1321.6
+          },
+          "gross": 4000.0,
+          "tax": 628.6,
+          "ni": 293.0,
+          "net": 2678.4
+        },
+        "August2025": {
+          "earnings": {
+            "Gross Salary": 4000.0
+          },
+          "deductions": {
+            "PAYE Tax": 628.6,
+            "National Insurance (NI)": 293.0,
+            "Pension (10%)": 400.0,
+            "Total Deductions": 1321.6
+          },
+          "gross": 4000.0,
+          "tax": 628.6,
+          "ni": 293.0,
+          "net": 2678.4
+        }
+      }
+    },
+    "NTU010": {
+      "name": "Daniel Miller",
+      "role": "Senior Engineer",
+      "taxCode": "1257L",
+      "payslips": {
+        "July2025": {
+          "earnings": {
+            "Gross Salary": 6500.0
+          },
+          "deductions": {
+            "PAYE Tax": 1465.11,
+            "National Insurance (NI)": 542.55,
+            "Pension (6%)": 390.0,
+            "Private Health Insurance": 45.0,
+            "Total Deductions": 2442.66
+          },
+          "gross": 6500.0,
+          "tax": 1465.11,
+          "ni": 542.55,
+          "net": 4057.34
+        },
+        "August2025": {
+          "earnings": {
+            "Gross Salary": 6500.0
+          },
+          "deductions": {
+            "PAYE Tax": 1465.11,
+            "National Insurance (NI)": 542.55,
+            "Pension (6%)": 390.0,
+            "Private Health Insurance": 45.0,
+            "Total Deductions": 2442.66
+          },
+          "gross": 6500.0,
+          "tax": 1465.11,
+          "ni": 542.55,
+          "net": 4057.34
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,313 @@
+Payslip 1: Jane Doe (Senior Software Engineer)
+Employee Details:
+• Employee ID: NTU001
+• Pay Period: 01/07/2025 - 31/07/2025
+• Pay Date: 31/07/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £5,833.33
+Deductions:
+• PAYE Tax: £1,215.11
+• National Insurance (NI): £501.55
+• Pension (4%): £233.33
+• Student Loan (Plan 2): £235.90
+• Healthcare Scheme: £25.00
+• Total Deductions: £2,210.89
+Net Pay:
+• Net Pay: £3,622.44
+Payslip 2: John Smith (Junior Developer)
+Employee Details:
+• Employee ID: NTU002
+• Pay Period: 01/07/2025 - 31/07/2025
+• Pay Date: 31/07/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £2,500.00
+Deductions:
+• PAYE Tax: £243.60
+• National Insurance (NI): £133.00
+• Pension (3%): £75.00
+• Student Loan (Plan 1): £39.81
+• Total Deductions: £491.41
+Net Pay:
+• Net Pay: £2,008.59
+Payslip 3: Emily Jones (Mid-Level Developer)
+Employee Details:
+• Employee ID: NTU003
+• Pay Period: 01/07/2025 - 31/07/2025
+• Pay Date: 31/07/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £3,750.00
+Deductions:
+• PAYE Tax: £568.60
+• National Insurance (NI): £272.50
+• Pension (5%): £187.50
+• Cycle to Work Scheme: £50.00
+• Total Deductions: £1,078.60
+Net Pay:
+• Net Pay: £2,671.40
+Payslip 4: Mark Williams (Part-Time Developer)
+Employee Details:
+• Employee ID: NTU004
+• Pay Period: 01/07/2025 - 31/07/2025
+• Pay Date: 31/07/2025
+• Tax Code: 1257L
+Earnings:
+• Hourly Rate: £20.00
+• Hours Worked: 80
+• Gross Pay: £1,600.00
+Deductions:
+• PAYE Tax: £31.60
+• National Insurance (NI): £52.12
+• Pension (Standard Auto-enrolment): £34.80
+• Total Deductions: £118.52
+Net Pay:
+• Net Pay: £1,481.48
+Payslip 5: Sarah Chen (Senior Consultant)
+Employee Details:
+• Employee ID: NTU005
+• Pay Period: 01/07/2025 - 31/07/2025
+• Pay Date: 31/07/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £8,500.00
+Deductions:
+• PAYE Tax: £2,207.11
+• National Insurance (NI): £686.55
+• Pension (8%): £680.00
+• Student Loan (Plan 2): £346.54
+• Total Deductions: £3,920.20
+Net Pay:
+• Net Pay: £4,579.80
+Payslip 6: Michael Davies (Senior Manager)
+Employee Details:
+• Employee ID: NTU006
+• Pay Period: 01/07/2025 - 31/07/2025
+• Pay Date: 31/07/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £7,500.00
+• Car Allowance: £450.00
+• Gross Pay: £7,950.00
+Deductions:
+• PAYE Tax: £1,929.11
+• National Insurance (NI): £631.55
+• Pension (5%): £375.00
+• Total Deductions: £2,935.66
+Net Pay:
+• Net Pay: £5,014.34
+Payslip 7: Chloe Wilson (Graduate Engineer)
+Employee Details:
+• Employee ID: NTU007
+• Pay Period: 01/07/2025 - 31/07/2025
+• Pay Date: 31/07/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £2,200.00
+Deductions:
+• PAYE Tax: £143.60
+• National Insurance (NI): £97.00
+• Student Loan (Plan 2): £25.90
+• Total Deductions: £266.50
+Net Pay:
+• Net Pay: £1,933.50
+Payslip 8: Liam Brown (Temporary Staff)
+Employee Details:
+• Employee ID: NTU008
+• Pay Period: 01/07/2025 - 31/07/2025
+• Pay Date: 31/07/2025
+• Tax Code: BR (Basic Rate)
+Earnings:
+• Hourly Rate: £18.00
+• Hours Worked: 120
+• Gross Pay: £2,160.00
+Deductions:
+• PAYE Tax: £432.00
+• National Insurance (NI): £92.00
+• Total Deductions: £524.00
+Net Pay:
+• Net Pay: £1,636.00
+Payslip 9: Olivia Green (Mid-Level Developer)
+Employee Details:
+• Employee ID: NTU009
+• Pay Period: 01/07/2025 - 31/07/2025
+• Pay Date: 31/07/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £4,000.00
+Deductions:
+• PAYE Tax: £628.60
+• National Insurance (NI): £293.00
+• Pension (10%): £400.00
+• Total Deductions: £1,321.60
+Net Pay:
+• Net Pay: £2,678.40
+Payslip 10: Daniel Miller (Senior Engineer)
+Employee Details:
+• Employee ID: NTU010
+• Pay Period: 01/07/2025 - 31/07/2025
+• Pay Date: 31/07/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £6,500.00
+Deductions:
+• PAYE Tax: £1,465.11
+• National Insurance (NI): £542.55
+• Pension (6%): £390.00
+• Private Health Insurance: £45.00
+• Total Deductions: £2,442.66
+Net Pay:
+• Net Pay: £4,057.34
+Payslip 1: Jane Doe (Senior Software Engineer)
+• Employee ID: NTU001
+• Pay Period: 01/08/2025 - 31/08/2025
+• Pay Date: 31/08/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £5,833.33
+Deductions:
+• PAYE Tax: £1,192.11
+• National Insurance (NI): £487.55
+• Pension (5%): £291.67
+• Student Loan (Plan 2): £235.90
+• Healthcare Scheme: £25.00
+• Total Deductions: £2,232.23
+Net Pay:
+• Net Pay: £3,601.10
+Payslip 2: John Smith (Junior Developer)
+• Employee ID: NTU002
+• Pay Period: 01/08/2025 - 31/08/2025
+• Pay Date: 31/08/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £2,500.00
+Deductions:
+• PAYE Tax: £243.60
+• National Insurance (NI): £133.00
+• Pension (3%): £75.00
+• Student Loan (Plan 1): £39.81
+• Total Deductions: £491.41
+Net Pay:
+• Net Pay: £2,008.59
+Payslip 3: Emily Jones (Mid-Level Developer)
+• Employee ID: NTU003
+• Pay Period: 01/08/2025 - 31/08/2025
+• Pay Date: 31/08/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £3,900.00
+Deductions:
+• PAYE Tax: £612.60
+• National Insurance (NI): £283.00
+• Pension (5%): £195.00
+• Cycle to Work Scheme: £50.00
+• Total Deductions: £1,140.60
+Net Pay:
+• Net Pay: £2,759.40
+Payslip 4: Mark Williams (Part-Time Developer)
+• Employee ID: NTU004
+• Pay Period: 01/08/2025 - 31/08/2025
+• Pay Date: 31/08/2025
+• Tax Code: 1257L
+Earnings:
+• Hourly Rate: £20.00
+• Hours Worked: 80
+• Gross Pay: £1,600.00
+Deductions:
+• PAYE Tax: £31.60
+• National Insurance (NI): £52.12
+• Pension (Standard Auto-enrolment): £34.80
+• Total Deductions: £118.52
+Net Pay:
+• Net Pay: £1,481.48
+Payslip 5: Sarah Chen (Senior Consultant)
+• Employee ID: NTU005
+• Pay Period: 01/08/2025 - 31/08/2025
+• Pay Date: 31/08/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £8,500.00
+Deductions:
+• PAYE Tax: £2,199.11
+• National Insurance (NI): £682.55
+• Pension (8%): £680.00
+• Student Loan (Plan 2): £346.54
+• Private Life Insurance (Salary Sacrifice): £20.00
+• Total Deductions: £3,928.20
+Net Pay:
+• Net Pay: £4,571.80
+Payslip 6: Michael Davies (Senior Manager)
+• Employee ID: NTU006
+• Pay Period: 01/08/2025 - 31/08/2025
+• Pay Date: 31/08/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £7,500.00
+• Car Allowance: £450.00
+• Gross Pay: £7,950.00
+Deductions:
+• PAYE Tax: £1,929.11
+• National Insurance (NI): £631.55
+• Pension (5%): £375.00
+• Total Deductions: £2,935.66
+Net Pay:
+• Net Pay: £5,014.34
+Payslip 7: Chloe Wilson (Graduate Engineer)
+• Employee ID: NTU007
+• Pay Period: 01/08/2025 - 31/08/2025
+• Pay Date: 31/08/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £2,200.00
+Deductions:
+• PAYE Tax: £143.60
+• National Insurance (NI): £97.00
+• Student Loan (Plan 2): £25.90
+• Total Deductions: £266.50
+Net Pay:
+• Net Pay: £1,933.50
+Payslip 8: Liam Brown (Temporary Staff)
+• Employee ID: NTU008
+• Pay Period: 01/08/2025 - 31/08/2025
+• Pay Date: 31/08/2025
+• Tax Code: BR (Basic Rate)
+Earnings:
+• Hourly Rate: £18.00
+• Hours Worked: 120
+• Gross Pay: £2,160.00
+Deductions:
+• PAYE Tax: £432.00
+• National Insurance (NI): £92.00
+• Total Deductions: £524.00
+Net Pay:
+• Net Pay: £1,636.00
+Payslip 9: Olivia Green (Mid-Level Developer)
+• Employee ID: NTU009
+• Pay Period: 01/08/2025 - 31/08/2025
+• Pay Date: 31/08/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £4,000.00
+Deductions:
+• PAYE Tax: £628.60
+• National Insurance (NI): £293.00
+• Pension (10%): £400.00
+• Total Deductions: £1,321.60
+Net Pay:
+• Net Pay: £2,678.40
+Payslip 10: Daniel Miller (Senior Engineer)
+• Employee ID: NTU010
+• Pay Period: 01/08/2025 - 31/08/2025
+• Pay Date: 31/08/2025
+• Tax Code: 1257L
+Earnings:
+• Gross Salary: £6,500.00
+Deductions:
+• PAYE Tax: £1,465.11
+• National Insurance (NI): £542.55
+• Pension (6%): £390.00
+• Private Health Insurance: £45.00
+• Total Deductions: £2,442.66
+Net Pay:
+• Net Pay: £4,057.34
